@@ -1,0 +1,97 @@
+.container{
+    padding: 20px;
+}
+
+.email-label{
+    font-size: 20px;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.email-input{
+    padding: 8px;
+    border-radius: 3px;
+    border-color: #c7c7c7;
+    border-style: solid;
+    width: 250px;
+    margin-right: 5px;
+}
+
+.add-bttn, .delete-bttn{
+    background: #00a1ff;
+    color: white;
+    border-style: unset;
+    padding: 8px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.disabled{
+    visibility: hidden;
+}
+
+.list-ul{
+    list-style: none;
+    width: 383px;
+    border: 1px solid #bdbdbd;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.list-header{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.list-header span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.email-li{
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.email-li:last-child{
+    border-bottom: none;
+}
+
+.remove-anchor{
+    color: red;
+}
+
+.search-container{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.sc-label{
+    background: #cecece;
+    padding: 10px 16px;
+    border-radius: 3px 0 0 3px;
+}
+
+.sc-input{
+    border: 1px solid #bdbdbd;
+    padding: 10px;
+    width: 200px;
+}
+
+.sc-bttn{
+    background: #00a1ff;
+    color: white;
+    border-style: unset;
+    padding: 8px 20px;
+    border-radius: 0 3px 3px 0;
+    font-size: 16px;
+    cursor: pointer;
+}

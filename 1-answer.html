@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <label class="email-label">Email Address</label>
+        <input class="email-input" id="emailid" type="text" placeholder="Enter your email">
+        <Button class="add-bttn" onclick="addEmail()">Add Email</Button>
+        <ul class="list-ul disabled" id="email-list">
+            <li class="list-header">
+                <span>Email id list</span>
+                <button class="delete-bttn" onclick="removeElement()">Delete</Button>
+            </li>
+        </ul>
+
+        <div class="search-container">
+            <span class="sc-label">Email</span>
+            <input class="sc-input" id="searchinput" type="text" placeholder="Enter your email to search">
+            <Button class="sc-bttn" onclick="Searchemail()">Search Email</Button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
